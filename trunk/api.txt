@@ -1,0 +1,3 @@
+Greater Traveler Restful API
+*
+Please refer to this file: https://docs.google.com/document/d/1jBjcmtgoG63M87I-aFqZ53lNDMGGXfDgXL3E-UXtigs/edit
