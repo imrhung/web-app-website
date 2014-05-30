@@ -1,0 +1,151 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&.css");
+
+body{
+    padding-top: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight:300
+}
+label.control-label{
+    font-weight:bold
+}
+.control-group.error .control-label,.control-group.error .help-block,.control-group.error .help-inline{
+    font-weight:bold
+}
+
+div.alert p{
+    margin:0
+}
+
+.form-signin,.section_forgot{
+    width:200px;
+    margin:0 auto
+}
+.form-password-forgot{
+    width:600px;
+    margin:0 auto
+}
+
+.form-horizontal .control-label {
+    text-align: left;
+}
+
+
+
+/* Make profile button in navigation bar center */
+#user-profile{
+    margin-top: 10px;
+    margin-right: 0px;
+}
+
+/* Small text size */
+.small-text {
+    font-size: 11px;
+    color: #999;
+}
+
+/* Navigation side bar modify */
+.navbar-static-side {
+    margin-top: 0px;
+    position: fixed;
+    z-index: 100;
+    background: #E7E8E9;
+}
+
+@media(min-width:768px) {
+    .navbar-static-side {
+        border-right: 1px solid #D1D2D4;
+        height: 100%;
+        margin-top: -20px;
+    }
+}
+
+.navbar-static-side ul li {
+    border-bottom: 1px solid #D1D2D4;
+}
+#header-logo {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background: white;
+}
+
+/* Link item on nav bar */
+.nav li a .fa{
+    font-size: 20px;
+    margin: 0 16px;
+}
+.nav li a {
+    color: black;
+}
+.nav li.active a, .nav li.active a .fa{
+    color: green;
+}
+
+#page-wrapper{
+    min-height: 0;
+    border-left: none;
+}
+
+/*
+ * Table
+ */
+.cell-center {
+    text-align: center;   
+}
+
+/*
+ * Fade in effect for alert
+ */
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity 0.25s linear;
+    -moz-transition: opacity 0.25s linear;
+    -o-transition: opacity 0.25s linear;
+    transition: opacity 0.25s linear;
+}
+/* Issue: This make bootbox background black
+.fade.in {
+    opacity: 1;
+}
+*/
+
+/* Alert area */
+#alert_placeholder{
+    margin-top: 10px;
+}
+
+html, body{
+    height: 100%;
+    background: white;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #E7E8E9;
+}
+
+/* Remove padding in phone view */
+@media (min-width: 768px) {
+    body {
+        //	margin-top:40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding:0;
+        margin:0;
+    }
+
+    body {
+        padding:0;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom:0;
+    }
+}
