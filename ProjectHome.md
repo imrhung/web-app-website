@@ -1,0 +1,1 @@
+Simple website that work both in web and app
